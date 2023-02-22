@@ -11,8 +11,6 @@ class NewController extends Controller {
         const { ctx } = this;
         await ctx.render('home/home.html');
     }
-
-
 }
 
 module.exports = NewController;
