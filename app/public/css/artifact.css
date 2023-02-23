@@ -1,0 +1,54 @@
+.flex{
+    display: flex;
+}
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.tabs .item{
+    margin-right: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+.tabs .checked{
+    background-color: #1862f6;
+    color: #ffffff;
+}
+.artifact-container{
+    gap:5px;
+}
+.artifact-container .item{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    margin: 10px 0;
+}
+.artifact-container .item .title{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.artifact-container .item .content{
+    color: #758296;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 10px;
+}
+.artifact-item_banner{
+    width: 359px;
+    height: 235px;
+    border-radius: 8px;
+}
+.mlr-3{
+    margin-left: 3px;
+    margin-right: 3px;
+}
