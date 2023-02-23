@@ -49,8 +49,12 @@
     margin: 10px;
 }
 
-.mt {
+.mt-10 {
     margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .mtb-10 {
