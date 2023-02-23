@@ -1,4 +1,54 @@
-body {
-    background-color: aqua;
-    height: 100vh;
-}
+    body {
+        background-color: #434343;
+    }
+    
+    .fees {
+        background-color: #000000;
+        z-index: 0;
+        height: 200px;
+    }
+    
+    .fees .fees-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px 70px;
+    }
+    
+    .contain {
+        background-color: #434343;
+    }
+    
+    .contain .specifications {
+        height: 500px;
+        position: relative;
+        top: -30px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+    }
+    
+    .price-grade {
+        background-color: #666666;
+    }
+    
+    .price-grade .grade {
+        background-color: #4a86e8;
+        color: white;
+        padding: 60px 0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    .price,
+    .personnel,
+    .time,
+    .recommend {
+        font-size: 20px;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+        margin: 0 20px;
+        padding: 10px 0;
+    }
