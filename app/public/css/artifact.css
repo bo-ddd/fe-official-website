@@ -25,7 +25,7 @@
 .artifact-container .item{
     display: flex;
     flex-direction: column;
-    width: 31%;
+    width: 30%;
     margin: 10px 0;
 }
 .artifact-container .item .title{
@@ -41,10 +41,9 @@
     overflow: hidden;
     font-size: 14px;
     line-height: 20px;
-    padding-right: 10px;
 }
 .artifact-item_banner{
-    width: 359px;
+    width: 360px;
     height: 235px;
     border-radius: 8px;
 }
