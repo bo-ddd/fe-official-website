@@ -1,4 +1,208 @@
-body,ul,div{
+body,
+ul,
+div {
     margin: 0;
     padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 750px;
+    background-image: url(https://cms.internetyu.com/res/res/column/2022711/40288070828b976b01828bb1ad3e001e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-logo {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.header-nav {
+    border-bottom: 1px solid rgb(159, 159, 159);
+    padding-bottom: 6px;
+    padding-top: 10px;
+}
+
+.header-nav_list ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 50px;
+    cursor: pointer;
+    color: #fff;
+}
+.header-nav_list ul li:hover{
+    color: rgb(182, 235, 251);
+}
+
+.header-nav_btn {
+    display: flex;
+}
+
+.btn {
+    padding: 10px 26px;
+    text-align: center;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(208, 244, 255);
+    border-radius: 40px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+header .header-style {
+    text-align: center;
+    margin-top: 200px;
+    color: #fff;
+}
+
+header .header-style h1 {
+    letter-spacing: 6px;
+    font-size: 50px;
+    color: #fff;
+    font-family: NSimSun;
+}
+
+header .header-style h4 {
+    letter-spacing: 8px;
+    font-family: NSimSun;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+header .header-style button {
+    padding: 10px 70px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: rgb(208, 244, 255);
+    border-radius: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+section .advantage {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(237, 237, 237);
+    padding: 40px 0px;
+}
+
+section .advantage-title {
+    text-align: center;
+    font-family: KaiTi;
+    font-size: 30px;
+}
+
+.c-7e7e7e {
+    color: #7e7e7e;
+}
+
+section .advantages {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.fs-14 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.advantage-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.advantage-border .fs-18 {
+    text-align: center;
+}
+
+.advantage-border .icon-advantage{
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.advantage-flex {
+    margin-top: 60px;
+}
+
+.work-flow {
+    width: 100%;
+    height: 480px;
+    background-color: rgb(237, 237, 237);
+    padding: 40px 10px;
+}
+
+.work-flow_img {
+    width: 1020px;
+    height: 300px;
+    margin:50px 70px;
+}
+.customer-distribution{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to right,#001b52,#001543);
+}
+.icon-map_img{
+    width: 1020px;
+    height: 500px;
+    margin:0px 90px;
+}
+.cooperation{
+    width: 100%;
+    height: 400px;
+    background:linear-gradient(to right,#dee1f7,#f1f2f6);
+    padding: 0px 10px;
+}
+.cooperation-img {
+    width: 1120px;
+    height: 390px;
+    margin:0px 30px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(17, 5, 62);
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.company-details {
+    display: flex;
+    justify-content: space-between
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.icon-code {
+    width: 80px;
+    height: 80px;
+}
+.footer-flex div:hover{
+   color: rgb(182, 235, 251);
+    cursor: pointer;
+}
+
+.code-border {
+    display: flex;
+    margin-top: 20px;
+}
+
+.code-font {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 10px;
 }
