@@ -92,7 +92,6 @@ section .advantage {
 
 section .advantage-title {
     text-align: center;
-    font-family: KaiTi;
     font-size: 30px;
 }
 
@@ -135,7 +134,7 @@ section .advantages {
     width: 100%;
     height: 480px;
     background-color: rgb(237, 237, 237);
-    padding: 40px 10px;
+    padding: 40px 0;
 }
 
 .work-flow_img {
@@ -157,7 +156,6 @@ section .advantages {
     width: 100%;
     height: 400px;
     background:linear-gradient(to right,#dee1f7,#f1f2f6);
-    padding: 0px 10px;
 }
 .cooperation-img {
     width: 1120px;
